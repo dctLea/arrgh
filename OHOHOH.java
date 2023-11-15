@@ -9,14 +9,16 @@ public class OHOHOH
 {
     // variables d'instance - remplacez l'exemple qui suit par le vôtre
     private int x;
+    private String s;
 
     /**
      * Constructeur d'objets de classe OHOHOH
      */
-    public OHOHOH()
+    public OHOHOH(String s)
     {
         // initialisation des variables d'instance
         x = 0;
+        this.s = s;
     }
 
     /**
